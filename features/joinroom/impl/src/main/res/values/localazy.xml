@@ -12,11 +12,11 @@
   <string name="screen_join_room_decline_and_block_alert_title">"Decline invite &amp; block"</string>
   <string name="screen_join_room_decline_and_block_button_title">"Decline and block"</string>
   <string name="screen_join_room_fail_message">"Joining the room failed."</string>
-  <string name="screen_join_room_fail_reason">"This room is either invite-only or there might be restrictions to access at space level."</string>
+  <string name="screen_join_room_fail_reason">"This room is either invite-only or there might be restrictions to access at DAO level."</string>
   <string name="screen_join_room_forget_action">"Forget this room"</string>
   <string name="screen_join_room_invite_required_message">"You need an invite in order to join this room"</string>
   <string name="screen_join_room_join_action">"Join room"</string>
-  <string name="screen_join_room_join_restricted_message">"You may need to be invited or be a member of a space in order to join."</string>
+  <string name="screen_join_room_join_restricted_message">"You may need to be invited or be a member of a DAO in order to join."</string>
   <string name="screen_join_room_knock_action">"Send request to join"</string>
   <string name="screen_join_room_knock_message_characters_count">"Allowed characters %1$d of %2$d"</string>
   <string name="screen_join_room_knock_message_description">"Message (optional)"</string>
@@ -24,8 +24,8 @@
   <string name="screen_join_room_knock_sent_title">"Request to join sent"</string>
   <string name="screen_join_room_loading_alert_message">"We could not display the room preview. This may be due to network or server issues."</string>
   <string name="screen_join_room_loading_alert_title">"We couldn’t display this room preview"</string>
-  <string name="screen_join_room_space_not_supported_description">"%1$s does not support spaces yet. You can access spaces on web."</string>
-  <string name="screen_join_room_space_not_supported_title">"Spaces are not supported yet"</string>
+  <string name="screen_join_room_space_not_supported_description">"%1$s does not support DAOs yet. You can access DAOs on web."</string>
+  <string name="screen_join_room_space_not_supported_title">"DAOs are not supported yet"</string>
   <string name="screen_join_room_subtitle_knock">"Click the button below and a room administrator will be notified. You’ll be able to join the conversation once approved."</string>
   <string name="screen_join_room_subtitle_no_preview">"You must be a member of this room to view the message history."</string>
   <string name="screen_join_room_title_knock">"Want to join this room?"</string>

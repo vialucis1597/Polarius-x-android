@@ -105,7 +105,7 @@
   <string name="action_leave">"Leave"</string>
   <string name="action_leave_conversation">"Leave conversation"</string>
   <string name="action_leave_room">"Leave room"</string>
-  <string name="action_leave_space">"Leave space"</string>
+  <string name="action_leave_space">"Leave DAO"</string>
   <string name="action_load_more">"Load more"</string>
   <string name="action_manage_account">"Manage account"</string>
   <string name="action_manage_devices">"Manage devices"</string>
@@ -185,7 +185,7 @@
   <string name="common_creating_room">"Creating room…"</string>
   <string name="common_current_user_canceled_knock">"Request canceled"</string>
   <string name="common_current_user_left_room">"Left room"</string>
-  <string name="common_current_user_left_space">"Left space"</string>
+  <string name="common_current_user_left_space">"Left DAO"</string>
   <string name="common_current_user_rejected_invite">"Invite declined"</string>
   <string name="common_dark">"Dark"</string>
   <string name="common_decryption_error">"Decryption error"</string>
@@ -268,9 +268,9 @@ Reason: %1$s."</string>
   <string name="common_preparing">"Preparing…"</string>
   <string name="common_privacy_policy">"Privacy policy"</string>
   <string name="common_private_room">"Private room"</string>
-  <string name="common_private_space">"Private space"</string>
+  <string name="common_private_space">"Private DAO"</string>
   <string name="common_public_room">"Public room"</string>
-  <string name="common_public_space">"Public space"</string>
+  <string name="common_public_space">"Public DAO"</string>
   <string name="common_reaction">"Reaction"</string>
   <string name="common_reactions">"Reactions"</string>
   <string name="common_reason">"Reason"</string>
@@ -313,10 +313,10 @@ Reason: %1$s."</string>
   <string name="common_signing_out">"Signing out"</string>
   <string name="common_something_went_wrong">"Something went wrong"</string>
   <string name="common_something_went_wrong_message">"We encountered an issue. Please try again."</string>
-  <string name="common_space">"Space"</string>
+  <string name="common_space">"DAO"</string>
   <plurals name="common_spaces">
-    <item quantity="one">"%1$d Space"</item>
-    <item quantity="other">"%1$d Spaces"</item>
+    <item quantity="one">"%1$d DAO"</item>
+    <item quantity="other">"%1$d DAOs"</item>
   </plurals>
   <string name="common_starting_chat">"Starting chat…"</string>
   <string name="common_sticker">"Sticker"</string>
@@ -412,8 +412,8 @@ Are you sure you want to continue?"</string>
   <string name="invite_friends_text">"Hey, talk to me on %1$s: %2$s"</string>
   <string name="login_initial_device_name_android">"%1$s Android"</string>
   <string name="preference_rageshake">"Rageshake to report bug"</string>
-  <string name="screen_bottom_sheet_leave_space_subtitle">"This will also remove you from all rooms in this space."</string>
-  <string name="screen_bottom_sheet_leave_space_subtitle_admin">"This will also remove you from all rooms in this space, including those you’re the only administrator for:"</string>
+  <string name="screen_bottom_sheet_leave_space_subtitle">"This will also remove you from all rooms in this DAO."</string>
+  <string name="screen_bottom_sheet_leave_space_subtitle_admin">"This will also remove you from all rooms in this DAO, including those you're the only administrator for:"</string>
   <string name="screen_bottom_sheet_leave_space_title">"Leave %1$s?"</string>
   <string name="screen_bug_report_a11y_screenshot">"Screenshot"</string>
   <string name="screen_create_poll_option_accessibility_label">"%1$s: %2$s"</string>
@@ -456,9 +456,9 @@ Are you sure you want to continue?"</string>
   <string name="screen_share_open_google_maps">"Open in Google Maps"</string>
   <string name="screen_share_open_osm_maps">"Open in OpenStreetMap"</string>
   <string name="screen_share_this_location_action">"Share this location"</string>
-  <string name="screen_space_list_description">"Spaces you have created or joined."</string>
+  <string name="screen_space_list_description">"DAOs you have created or joined."</string>
   <string name="screen_space_list_details">"%1$s • %2$s"</string>
-  <string name="screen_space_list_title">"Spaces"</string>
+  <string name="screen_space_list_title">"DAOs"</string>
   <string name="screen_timeline_item_menu_send_failure_changed_identity">"Message not sent because %1$s’s verified identity was reset."</string>
   <string name="screen_timeline_item_menu_send_failure_unsigned_device">"Message not sent because %1$s has not verified all devices."</string>
   <string name="screen_timeline_item_menu_send_failure_you_unsigned_device">"Message not sent because you have not verified one or more of your devices."</string>

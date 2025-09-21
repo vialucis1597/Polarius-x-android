@@ -134,8 +134,8 @@ We do not recommend enabling encryption for rooms that anyone can find and join.
   <string name="screen_security_and_privacy_room_access_invite_only_option_description">"People can only join if they are invited"</string>
   <string name="screen_security_and_privacy_room_access_invite_only_option_title">"Invite only"</string>
   <string name="screen_security_and_privacy_room_access_section_header">"Room access"</string>
-  <string name="screen_security_and_privacy_room_access_space_members_option_description">"Spaces are not currently supported"</string>
-  <string name="screen_security_and_privacy_room_access_space_members_option_title">"Space members"</string>
+  <string name="screen_security_and_privacy_room_access_space_members_option_description">"DAOs are not currently supported"</string>
+  <string name="screen_security_and_privacy_room_access_space_members_option_title">"DAO members"</string>
   <string name="screen_security_and_privacy_room_address_section_footer">"You’ll need a room address in order to make it visible in the room directory."</string>
   <string name="screen_security_and_privacy_room_address_section_header">"Room address"</string>
   <string name="screen_security_and_privacy_room_directory_visibility_section_footer">"Allow for this room to be found by searching %1$s public room directory"</string>
