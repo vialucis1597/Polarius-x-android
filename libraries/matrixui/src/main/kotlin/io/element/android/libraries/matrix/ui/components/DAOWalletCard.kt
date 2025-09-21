@@ -210,7 +210,7 @@ private fun DAOWalletSetupSection(
                         mnemonicError = null
                     },
                     label = { Text("Mnemonic Phrase (12 words)") },
-                    placeholder = { Text("word1 word2 word3 ...") },
+                    placeholder = { Text("abandon ability able about above absent...") },
                     isError = mnemonicError != null,
                     supportingText = mnemonicError?.let { { Text(it) } },
                     modifier = Modifier.fillMaxWidth(),
@@ -427,7 +427,7 @@ internal fun DAOWalletCardPreview() = ElementPreview {
                 address = "0x1234567890abcdef1234567890abcdef12345678",
                 balance = 1000000,
                 currency = "B",
-                mnemonic = "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12"
+                mnemonic = "abandon ability able about above absent absorb abstract absurd abuse access accident"
             ),
             isLoading = false,
             error = null,

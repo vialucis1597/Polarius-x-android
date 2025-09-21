@@ -55,6 +55,7 @@ import io.element.android.libraries.matrix.ui.components.WalletCreatedDialog
 import io.element.android.libraries.matrix.ui.components.WalletCreatedData
 import io.element.android.libraries.matrix.ui.model.getAvatarData
 import io.element.android.libraries.ui.strings.CommonStrings
+import io.element.android.libraries.cryptography.impl.MnemonicGenerator
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.delay
 
@@ -240,8 +241,8 @@ private fun DAOWalletCardWithState(currentSpace: SpaceRoom) {
             try {
                 delay(2000) // Simulate network delay
                 
-                val address = "0x${(1..40).map { (0..15).random().toString(16) }.joinToString("")}"
-                val mnemonic = "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12"
+                val mnemonic = MnemonicGenerator.generateMnemonic()
+                val address = MnemonicGenerator.generateAddressFromMnemonic(mnemonic)
                 
                 // Create mock wallet data
                 walletData = DAOWalletData(
@@ -275,9 +276,16 @@ private fun DAOWalletCardWithState(currentSpace: SpaceRoom) {
             try {
                 delay(1500) // Simulate network delay
                 
+                // Validate mnemonic
+                if (!MnemonicGenerator.isValidMnemonic(restoreMnemonic)) {
+                    error = "Invalid mnemonic phrase"
+                    return@LaunchedEffect
+                }
+                
                 // Create mock wallet data from mnemonic
+                val address = MnemonicGenerator.generateAddressFromMnemonic(restoreMnemonic)
                 walletData = DAOWalletData(
-                    address = "0x${(1..40).map { (0..15).random().toString(16) }.joinToString("")}",
+                    address = address,
                     balance = 500000,
                     currency = "B",
                     mnemonic = restoreMnemonic

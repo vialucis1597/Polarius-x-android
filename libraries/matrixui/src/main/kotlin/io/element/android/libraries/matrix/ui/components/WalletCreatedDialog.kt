@@ -205,7 +205,7 @@ internal fun WalletCreatedDialogPreview() = ElementPreview {
     WalletCreatedDialog(
         walletData = WalletCreatedData(
             address = "0x1234567890abcdef1234567890abcdef12345678",
-            mnemonic = "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12"
+            mnemonic = "abandon ability able about above absent absorb abstract absurd abuse access accident"
         ),
         onDismiss = {}
     )

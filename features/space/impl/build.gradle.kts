@@ -39,6 +39,7 @@ dependencies {
     implementation(projects.libraries.featureflag.api)
     implementation(projects.features.invite.api)
     implementation(projects.libraries.previewutils)
+    implementation(projects.libraries.cryptography.impl)
     api(projects.features.space.api)
 
     testCommonDependencies(libs, true)
